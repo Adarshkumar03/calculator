@@ -113,9 +113,8 @@ const sub = (num1, num2)=>{
  })
 
  allClearButton.addEventListener("click", function(){
-     prevOperand = "";
-     currentOperand = "";
-     updateDisplay();
+   result.innerHTML = "";
+   pendOperation.innerHTML = ""; 
  })
 
  operationButtons.forEach((ops) => {
